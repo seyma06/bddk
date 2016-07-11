@@ -10,8 +10,9 @@ public class BranchManage implements Manage {
     Branch branch = new Branch();
 
     @Override
-    public void add(int id, String name) {
-        branch.setBranchID(id);
+    public void add(String name) {
+        //todo id'yi nasil kendim bulurum
+        //branch.setBranchID(id);
         branch.setBranchName(name);
     }
 
