@@ -9,9 +9,9 @@ public class BankManage implements Manage {
     Bank bank = new Bank();
 
     @Override
-    public void add(int id, String name) {
-
-        bank.setBankName(name);
+    public void add(String name) {
+        //todo id'yi bir sekilde bulmaliyim
+        //bank.setBankName(name);
         bank.setBankID(id);
 
     }
