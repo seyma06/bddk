@@ -5,7 +5,7 @@ import entity.Atm;
 /**
  * Created by Administrator on 29.06.2016.
  */
-public class AtmManage implements Manage {
+public class AtmManage implements Manager {
 
     Atm atm = new Atm();
 
