@@ -10,8 +10,9 @@ public class AtmManage implements Manage {
     Atm atm = new Atm();
 
     @Override
-    public void add(int id, String name) {
-        atm.setAtmID(id);
+    public void add(String name) {
+        //todo id'yi bir sekilde bulmaliyim
+        //atm.setAtmID(id);
         atm.setAtmName(name);
     }
 
