@@ -18,7 +18,8 @@ public class Menu {
         ID = data.nextInt();
         System.out.print("Banka adını giriniz");
         name = data.next();
-        bank.add(ID,name);
+        //todo burasinin da degistirilmesi lazim
+        //bank.add(ID,name);
         bank.view(ID);
     }
 
