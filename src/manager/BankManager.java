@@ -5,7 +5,7 @@ import entity.Bank;
 /**
  * Created by Administrator on 29.06.2016.
  */
-public class BankManage implements Manage {
+public class BankManage implements Manager {
     Bank bank = new Bank();
 
     @Override
