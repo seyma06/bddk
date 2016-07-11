@@ -5,7 +5,7 @@ import entity.Branch;
 /**
  * Created by Administrator on 29.06.2016.
  */
-public class BranchManage implements Manage {
+public class BranchManage implements Manager {
 
     Branch branch = new Branch();
 
