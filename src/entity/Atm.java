@@ -1,6 +1,8 @@
 package entity;
 
 /**
+ * Entity class for ATM object. it is equivalent to a row in database.
+ * 
  * Created by Administrator on 29.06.2016.
  */
 public class Atm {
